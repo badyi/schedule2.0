@@ -59,6 +59,8 @@ public:
 	int tempy;
 	vector <int> cab;
 	vector <int> sub;
+	vector <int> how_many_times_used;
+
 	group(string n, int q, int f) {
 		name = n;
 		quantity = q;
@@ -66,6 +68,7 @@ public:
 		LessonFlag = 0;
 		tempy = 0;
 	}
+
 	string get_name() {
 		return name;
 	}
@@ -86,10 +89,11 @@ public:
 
 class cabinet {
 	string number;
-	int quantity;
-	int type;
 	int occupied;
 	int checked;
+	int quantity;
+	int type;
+
 public:
 	cabinet(string n, int q, int t) {
 		number = n;
@@ -113,7 +117,7 @@ public:
 	void check(int k) {
 		checked = k;
 	}
-	int check_state() {
+	int check_ornot() {
 		return checked;
 	}
 	int state() {
@@ -129,14 +133,14 @@ vector <hours*> hours_flows;
 void print_g() {
 
 	for (int i = 0; i < groups.size(); i++) {
-		cout << groups[i]->get_name() << "  q: " << groups[i]->get_q() << "  f:" << groups[i]->get_flow() << " lf:" << groups[i]->get_LF()<<endl;
+		cout << groups[i]->get_name() << "  q: " << groups[i]->get_q() << "  f: " << groups[i]->get_flow() << " lf: " << groups[i]->get_LF()<<endl;
 	}
 
 }
 
 void print_c() {
 	for (int i = 0; i < cabinets.size(); i++) {
-		cout << cabinets[i]->get_number() << "  q: " << cabinets[i]->get_q() << " type:" << cabinets[i]->get_type() << " check: " << cabinets[i]->check_state() << " state" << cabinets[i]->state() << endl;
+		cout << cabinets[i]->get_number() << "  q: " << cabinets[i]->get_q() << " type: " << cabinets[i]->get_type() << " check: " << cabinets[i]->check_ornot() << " state: " << cabinets[i]->state() << endl;
 	}
 }
 
@@ -352,120 +356,115 @@ void save(int lesson, group* G, cabinet* C, int S) {
 		fout << "lesson:" << lesson << '\n';
 		flag = false;
 		fout << "   |      Name:|" << "quantity:|" << "flows|" << "Cabinet|" << "Type" << '\n';
-
+	}
 		fout << "    " << G->get_name() << " \t " << G->get_q() << " \t  " << G->get_flow() << " \t " << C->get_number() << " \t" << get_typeof_class(type) << "\t" << get_nameof_sub(S) << '\n';
 		fout.close();
 
-	}
+	
 	fout.close();
 }
 
 void DELETETHISFUNC() {
 	cout << endl;
+
 	for (int i = 0; i < groups.size(); i++) {
 		group* g = groups[i];
-		cout << g->get_name() << endl;
+		cout << g->get_name() <<" f: "<< g->get_flow() << endl;
 		for (int j = 0; j < g->sub.size(); j++) {
-			//if(g->sub[j]>0)
-			cout << "  " << get_nameof_sub(j) << "     " << get_typeof_class(g->cab[j]) << "  " << g->sub[j]<<endl;
+			cout <<"  "<<j<< "  " << get_nameof_sub(j) << "     " << get_typeof_class(g->cab[j]) << "  " << g->sub[j]<<endl;
 		}
 	}
+
 }
 
 void cabinets_ch_clear() {
+
 	for (int i = 0; i < cabinets.size(); i++) {
 		cabinets[i]->check(0);
 	}
+
 }
 
-int tempy = 0;
+
 
 int find_sub(group* cur_g, cabinet* cur_c) {
 
-	
 	for (int i = 0; i < cur_g->sub.size(); i++) {
-		
-		if (tempy == cur_g->sub.size())
-			cur_g->tempy = 0;
-		if (cur_g->sub[tempy] < 0) {
-			tempy++;
-			continue;
-		}
+		if (cur_c->get_type() == cur_g->cab[i] && cur_g->sub[i] > 0) {
 
-		if (cur_c->get_type() == cur_g->cab[tempy] && cur_g->sub[tempy] > 0) {
-			//cout << "tttt - " << tempy << " ---" << endl;
-			cur_g->sub[tempy] = cur_g->sub[tempy] - 90;
-			cur_g->tempy = cur_g->tempy + 1;
-			return tempy;
-		}
+			cur_g->sub[i] = cur_g->sub[i] - 90;
+			//cout << "    -----{  " << i;
+			return i;
 
+		}
 	}
 
 	return -1;
-
-}
-
-bool check_sub(group* current) { // true - empty . false -there is exists not empty subs
-
-	for (int i = 0; i < current->sub.size(); i++) {
-
-		if (current->sub[i] > 0)
-			return false;
-
-	}
-
-	return true;
 }
 
 vector <group*> del;
 
+void check_sub_empty() { 
+
+	bool f = true;
+
+	for (int j = 0; j < groups.size(); j++) {
+
+		group* current = groups[j];
+		for (int i = 0; i < current->sub.size(); i++) {
+
+			if (current->sub[i] > 0)
+				f = false;
+
+		}
+
+		if (f)
+			del.push_back(groups[j]);
+	}
+
+}
+
+
+int tempy = 0;
+
 void distribute(int Lesson) {
+
 
 	for (int i = 0; i < groups.size(); i++) {
 
 		int min = 99999;
-		int t = -1, k = -1;
+		int g = -1;
+		int c = -1;
+		int s = -1;
 
-		for (int iii = 0; iii < groups.size(); iii++) {
 
-			if (groups[i]->get_LF() == 1)
-				continue;
+		for (int j = 0; j < groups[i]->sub.size(); j++) {
 
-			for (int j = 0; j < cabinets.size(); j++) {
+			if (groups[i]->sub[tempy] > 0 ){
 
-				if (cabinets[j]->check_state() == 1 || cabinets[j]->state() == 1)
-					continue;
+				for (int k = 0; k < cabinets.size(); k++) {
 
-				if (cabinets[j]->get_q() - groups[i]->get_q() < min && cabinets[j]->get_q() - groups[i]->get_q() > 0) {
+					if (cabinets[k]->state() == 0 && cabinets[k]->get_type() == groups[i]->cab[j]) {
 
-					min = cabinets[j]->get_q() - groups[i]->get_q();
-					t = i; k = j;
+						if (groups[i]->sub[tempy] > 0 && groups[i]->get_LF() == 0 ){
+
+							save(Lesson, groups[i], cabinets[k], tempy);
+							groups[i]->sub[j] = groups[i]->sub[tempy] - 90;
+							cabinets[k]->change_state(1);
+							groups[i]->LF_change(1);
+
+						}
+					}
 				}
 			}
 
-			if (t > -1 && t < groups.size()) {
-				
-				int ttt = find_sub(groups[t], cabinets[k]);
-				if (ttt != -1 && groups[t]->sub[ttt] > 0) {
+			groups[i]->tempy++;
+			tempy++;
 
-					save(Lesson, groups[t], cabinets[k], ttt);
-					cabinets[k]->change_state(1);
-					groups[t]->LF_change(1);
-					cout << "LESSON : "<<Lesson<<" " << groups[t]->get_name() << " " << cabinets[k]->get_number() << " " << get_nameof_sub(ttt) << endl;
-					t = -1; k = -1;
-				}
-
-				else
-					cabinets[k]->check(1);
-
+			if (tempy == groups[i]->sub.size()) {
+				groups[i]->tempy = 0;
+				tempy = 0;
 			}
-
-			cabinets_ch_clear();
-
-		}
-
-		if (check_sub(groups[i])) {
-			del.push_back(groups[i]);
 		}
 	}
 
@@ -489,10 +488,12 @@ void delete_used_g(){
 }
 
 void clean_states(){
+	
 	for (int i = 0; i < groups.size(); i++) 
 		groups[i]->LF_change(0);
 	for (int i = 0; i < cabinets.size(); i++)
 		cabinets[i]->change_state(0);
+
 }
 
 void distribute() {
@@ -500,21 +501,33 @@ void distribute() {
 	int Lesson = 1;
 	int day = 1;
 	while (!groups.empty()) {
-		for(int i =0; i< groups.size();i++)
-			distribute(Lesson);
-		delete_used_g();
-		clean_states();
-		Lesson++;
-		flag = true;
-		if (Lesson == 5) {
-			cout << "-----------end;";
-			break;
-		}
+		
+		//while (true) {
+			for (int i = 0; i < groups.size() ; i++)
+				distribute(Lesson);
+
+			clean_states();
+			check_sub_empty();
+			delete_used_g();
+		
+			Lesson++;
+			flag = true;
+			if (Lesson == 10) {
+				DELETETHISFUNC();
+				cout << "-----------end;";
+				break;
+			}
+		//}
+		//day++;
+		//if (day == 6)
+		//	break;
 	}
 
 }
 
 int main() {
+	int k = 0;
+	cout << k;
 	ofstream fout("Result.txt", ios::trunc);
 	fout.close();
 	load_groups();
@@ -528,6 +541,9 @@ int main() {
 	combine_groups_hours();
 
 	DELETETHISFUNC();
+	cout << endl;
 	distribute();
+	print_g();
+
 	return 0;
 }

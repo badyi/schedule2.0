@@ -1,3 +1,18 @@
 lesson:1
    |      Name:|quantity:|flows|Cabinet|Type
-    bsbo-12-14 	 30 	  0 	 A2 	practice	Xp-prog
+    bsbo-12-14 	 30 	  0 	 A4 	lecture	Xp-prog
+    kmbo-12-12 	 21 	  1 	 A3 	lab	Math
+lesson:2
+   |      Name:|quantity:|flows|Cabinet|Type
+    bsbo-12-14 	 30 	  0 	 A3 	lab	History
+    kmbo-12-12 	 21 	  1 	 A4 	lecture	History
+lesson:3
+   |      Name:|quantity:|flows|Cabinet|Type
+    bsbo-12-14 	 30 	  0 	 A3 	lab	History
+    kmbo-12-12 	 21 	  1 	 A4 	lecture	History
+lesson:4
+   |      Name:|quantity:|flows|Cabinet|Type
+    kmbo-12-12 	 21 	  1 	 A4 	lecture	History
+lesson:5
+   |      Name:|quantity:|flows|Cabinet|Type
+    kmbo-12-12 	 21 	  1 	 A4 	lecture	History

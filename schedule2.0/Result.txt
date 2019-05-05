@@ -1,0 +1,3 @@
+lesson:1
+   |      Name:|quantity:|flows|Cabinet|Type
+    bsbo-12-14 	 30 	  0 	 A2 	practice	Xp-prog

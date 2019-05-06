@@ -101,7 +101,7 @@ public:
 		LessonFlag = k;
 	}
 
-}; 
+};
 
 class cabinet {
 
@@ -150,7 +150,7 @@ vector <hours*> hours_flows;
 void print_g() {
 
 	for (int i = 0; i < groups.size(); i++) {
-		cout << groups[i]->get_name() << "  q: " << groups[i]->get_q() << "  f: " << groups[i]->get_flow() << " lf: " << groups[i]->get_LF()<<endl;
+		cout << groups[i]->get_name() << "  q: " << groups[i]->get_q() << "  f: " << groups[i]->get_flow() << " lf: " << groups[i]->get_LF() << endl;
 	}
 
 }
@@ -184,8 +184,8 @@ void load_groups() {
 	int t;
 
 	ifstream fin("groups.txt");
-	
-	while (true) { 
+
+	while (true) {
 
 		int k = -1;
 
@@ -211,7 +211,7 @@ void load_cab() {
 	string buf2;
 	string buf3;
 
-	int t,q;
+	int t, q;
 
 	ifstream fin("cabinets.txt");
 
@@ -348,9 +348,9 @@ void load_hours() {
 		}
 
 		if (hours_flows.size() != flows.size())
-			for (int i = 0; i < flows.size(); i++) 
+			for (int i = 0; i < flows.size(); i++)
 				hours_flows.push_back(nullptr);
-			
+
 
 		hours_flows[fl] = h;
 
@@ -407,9 +407,9 @@ void save(int lesson, group* G, cabinet* C, int S, int day, int week) {
 
 	int type = C->get_type();
 
-	ofstream fout("Result.txt", ios::app );
+	ofstream fout("Result.txt", ios::app);
 	if (flag2) {
-		fout<<"week: "<<week<< " day: " << day << "\n";
+		fout << "week: " << week << " day: " << day << "\n";
 		flag2 = false;
 	}
 	if (flag) {
@@ -418,10 +418,10 @@ void save(int lesson, group* G, cabinet* C, int S, int day, int week) {
 		flag = false;
 		fout << "   |      Name:|" << "quantity:|" << "flows|" << "Cabinet|" << "Type" << '\n';
 	}
-		fout << "    " << G->get_name() << " \t " << G->get_q() << " \t  " << G->get_flow() << " \t " << C->get_number() << " \t" << get_typeof_class(type) << "\t" << get_nameof_sub(S) << '\n';
-		fout.close();
+	fout << "    " << G->get_name() << " \t " << G->get_q() << " \t  " << G->get_flow() << " \t " << C->get_number() << " \t" << get_typeof_class(type) << "\t" << get_nameof_sub(S) << '\n';
+	fout.close();
 
-	
+
 	fout.close();
 }
 
@@ -430,9 +430,9 @@ void DELETETHISFUNC() {
 
 	for (int i = 0; i < groups.size(); i++) {
 		group* g = groups[i];
-		cout << g->get_name() <<" f: "<< g->get_flow() << endl;
+		cout << g->get_name() << " f: " << g->get_flow() << endl;
 		for (int j = 0; j < g->sub.size(); j++) {
-			cout <<"  "<<j<< "  " << get_nameof_sub(j) << "     " << get_typeof_class(g->cab[j]) << "  " << g->sub[j]<<endl;
+			cout << "  " << j << "  " << get_nameof_sub(j) << "     " << get_typeof_class(g->cab[j]) << "  " << g->sub[j] << endl;
 		}
 	}
 
@@ -463,7 +463,7 @@ int find_sub(group* cur_g, cabinet* cur_c) {
 
 vector <group*> del;
 
-void check_sub_empty() { 
+void check_sub_empty() {
 
 	bool f = true;
 
@@ -485,14 +485,14 @@ void check_sub_empty() {
 
 int tempy = 0;
 
-bool check_limits(group* current,int j) {
+bool check_limits(group* current, int j) {
 
 	bool f = false;
 
-	if (current->hm_times_used_w[j] < current->limits_for_w[j] && current->limits_for_w[j]>=1.0) {
+	if (current->hm_times_used_w[j] < current->limits_for_w[j] && current->limits_for_w[j] >= 1.0) {
 		f = true;
 	}
-	else if (current->hm_times_used_w[j] < current->limits_for_w[j] && current->limits_for_w[j]<1.0) {
+	else if (current->hm_times_used_w[j] < current->limits_for_w[j] && current->limits_for_w[j] < 1.0) {
 
 		if (current->used[j] == false) {
 			f = true;
@@ -501,7 +501,7 @@ bool check_limits(group* current,int j) {
 	return f;
 }
 
-void distribute(int Lesson, int day ,int weeks) {
+void distribute(int Lesson, int day, int weeks) {
 
 	for (int i = 0; i < groups.size(); i++) {
 
@@ -513,13 +513,13 @@ void distribute(int Lesson, int day ,int weeks) {
 
 		for (int j = 0; j < groups[i]->sub.size(); j++) {
 
-			if (groups[i]->sub[j] > 0 && check_limits(groups[i], j)){
-				
+			if (groups[i]->sub[j] > 0 && check_limits(groups[i], j)) {
+
 				for (int k = 0; k < cabinets.size(); k++) {
 
 					if (cabinets[k]->state() == 0 && cabinets[k]->get_type() == groups[i]->cab[j]) {
-						
-						if (groups[i]->sub[j] > 0 && groups[i]->get_LF() == 0 ){
+
+						if (groups[i]->sub[j] > 0 && groups[i]->get_LF() == 0) {
 
 							save(Lesson, groups[i], cabinets[k], j, day, weeks);
 
@@ -538,7 +538,7 @@ void distribute(int Lesson, int day ,int weeks) {
 
 }
 
-void delete_used_g(){
+void delete_used_g() {
 
 	for (int i = 0; i < del.size(); i++) {
 		for (int j = 0; j < groups.size(); j++) {
@@ -552,9 +552,9 @@ void delete_used_g(){
 	}
 }
 
-void clean_states(){
-	
-	for (int i = 0; i < groups.size(); i++) 
+void clean_states() {
+
+	for (int i = 0; i < groups.size(); i++)
 		groups[i]->LF_change(0);
 	for (int i = 0; i < cabinets.size(); i++)
 		cabinets[i]->change_state(0);
@@ -562,7 +562,7 @@ void clean_states(){
 }
 
 void distribute() {
-	
+
 	int Lesson = 1;
 	int day = 1;
 	int weeks = 0;
@@ -572,12 +572,12 @@ void distribute() {
 		while (true) {
 
 			//for (int i = 0; i < groups.size() ; i++)
-				distribute(Lesson, day,weeks);
+			distribute(Lesson, day, weeks);
 
 			clean_states();
 			check_sub_empty();
 			delete_used_g();
-		
+
 			Lesson++;
 			flag = true;
 
@@ -591,7 +591,7 @@ void distribute() {
 		flag2 = true;
 
 		if (day % 7 == 0) {
-			if (weeks % 14  == 0)
+			if (weeks % 14 == 0)
 				for (int ttt = 0; ttt < groups.size(); ttt++) {
 					for (int jjj = 0; jjj < groups[ttt]->used.size(); jjj++)
 						groups[ttt]->used[jjj] = false;
@@ -640,7 +640,7 @@ int main() {
 	load_cab();
 	cout << endl;
 	print_c();
-	
+
 	load_hours();
 	set_limits();
 	//print_limits();

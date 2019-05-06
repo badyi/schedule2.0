@@ -1,13 +1,14 @@
 kmbo
-1 2 360
-3 0 90
+1 0 1440
+2 1 1440
+1 2 720
 -
 bsbo
-3 2 180
-1 1 90
+3 2 720
+1 1 1440
 -
 ~
 
 1 - type of lesson or cabinet. [1] - lecture [2] - practice [3] - lab
 2 - id of subject. for example: [0] - math [1] - xp-prog [2] - history 
-3 - hours in minutes
+3 - hours in minutesrs in minutes

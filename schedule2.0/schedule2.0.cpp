@@ -1,5 +1,4 @@
-﻿
-#include "pch.h"
+﻿#include "pch.h"
 #include <iostream>
 #include <fstream>
 #include <vector>
@@ -7,11 +6,15 @@
 
 using namespace std;
 
+int Weeks = 16;
+
 class hours {
 public:
 
 	vector <int> typeof_cab;
 	vector <int> typeof_sub;
+	vector <int> limits_for_d;
+	vector <float> limits_for_w;
 
 	hours() {
 	}
@@ -25,16 +28,24 @@ public:
 	}
 
 	void expand_space(int k) {
+
 		if (typeof_sub.size() == 0) {
 			for (int i = 0; i < k; i++) {
 				typeof_sub.push_back(-1);
 				typeof_cab.push_back(-1);
+				limits_for_d.push_back(1);
+				limits_for_w.push_back(0);
 			}
 		}
+
 		else {
 			for (int i = typeof_sub.size(); i < k; i++) {
+
 				typeof_sub.push_back(-1);
 				typeof_cab.push_back(-1);
+				limits_for_d.push_back(1);
+				limits_for_w.push_back(0);
+
 			}
 		}
 	}
@@ -57,9 +68,14 @@ class group {
 public:
 
 	int tempy;
+
 	vector <int> cab;
 	vector <int> sub;
-	vector <int> how_many_times_used;
+	vector <int> hm_times_used_d; // day
+	vector <int> hm_times_used_w; // week
+	vector <int> limits_for_d;
+	vector <float> limits_for_w;
+	vector <int> used;
 
 	group(string n, int q, int f) {
 		name = n;
@@ -85,9 +101,10 @@ public:
 		LessonFlag = k;
 	}
 
-}; 
+};
 
 class cabinet {
+
 	string number;
 	int occupied;
 	int checked;
@@ -133,7 +150,7 @@ vector <hours*> hours_flows;
 void print_g() {
 
 	for (int i = 0; i < groups.size(); i++) {
-		cout << groups[i]->get_name() << "  q: " << groups[i]->get_q() << "  f: " << groups[i]->get_flow() << " lf: " << groups[i]->get_LF()<<endl;
+		cout << groups[i]->get_name() << "  q: " << groups[i]->get_q() << "  f: " << groups[i]->get_flow() << " lf: " << groups[i]->get_LF() << endl;
 	}
 
 }
@@ -167,8 +184,8 @@ void load_groups() {
 	int t;
 
 	ifstream fin("groups.txt");
-	
-	while (true) { 
+
+	while (true) {
 
 		int k = -1;
 
@@ -194,7 +211,7 @@ void load_cab() {
 	string buf2;
 	string buf3;
 
-	int t,q;
+	int t, q;
 
 	ifstream fin("cabinets.txt");
 
@@ -238,11 +255,23 @@ string get_nameof_sub(int k) {
 	switch (k)
 	{
 	case(0):
-		return "Math";
+		return "Math"; // lecture
 	case(1):
-		return "Xp-prog";
+		return "Math"; // practice
 	case(2):
-		return "History";
+		return "Xp-programming"; // lecture
+	case(3):
+		return "Xp-programming"; // practice
+	case(4):
+		return "Algebra"; // lecture
+	case(5):
+		return "Algebra"; // practice
+	case(6):
+		return "Physics"; // lecture
+	case(7):
+		return "Physics"; // practice
+	case(8):
+		return "Physics"; // lab
 	default:
 		return "unidentified";
 		break;
@@ -305,6 +334,7 @@ void load_hours() {
 		}
 
 		while (!s.empty()) {
+
 			buf3 = s.back();
 			s.pop_back();
 			buf2 = s.back();
@@ -314,12 +344,13 @@ void load_hours() {
 			buf1 = s.back();
 			s.pop_back();
 			h->add(atoi(buf1.c_str()), atoi(buf2.c_str()), atoi(buf3.c_str()));
+
 		}
 
 		if (hours_flows.size() != flows.size())
-			for (int i = 0; i < flows.size(); i++) 
+			for (int i = 0; i < flows.size(); i++)
 				hours_flows.push_back(nullptr);
-			
+
 
 		hours_flows[fl] = h;
 
@@ -336,31 +367,75 @@ void combine_groups_hours() {
 		hours* buf = hours_flows[groups[i]->get_flow()];
 
 		for (int j = 0; j < buf->typeof_sub.size(); j++) {
+
 			groups[i]->cab.push_back(buf->typeof_cab[j]);
 			groups[i]->sub.push_back(buf->typeof_sub[j]);
+			groups[i]->hm_times_used_d.push_back(0);
+			groups[i]->hm_times_used_w.push_back(0);
+			groups[i]->limits_for_d.push_back(buf->limits_for_d[j]);
+			groups[i]->limits_for_w.push_back(buf->limits_for_w[j]);
+
+			if (buf->limits_for_w[j] < 1.0 && buf->limits_for_w[j] > 0.0) {
+				float t = 1;
+				float us = buf->limits_for_w[j];
+
+				while (us != 1.0) {
+					us = us * t;
+					t++;
+				}
+				groups[i]->used.push_back(t-1);
+			}
+			else if (buf->limits_for_w[j] >= 1.0)
+				groups[i]->used.push_back(buf->limits_for_w[j]);
+			else
+				groups[i]->used.push_back(0);
 		}
 
 	}
 }
 
-bool flag = true;
+void set_limits() {
 
-void save(int lesson, group* G, cabinet* C, int S) {
+	for (int i = 0; i < hours_flows.size(); i++) {
+
+		hours* cur = hours_flows[i];
+		for (int j = 0; j < cur->typeof_sub.size(); j++) {
+
+			if (cur->typeof_sub[j] > 0) {
+				float limits = cur->typeof_sub[j] / 90 / 16.0;
+				cur->limits_for_w[j] = limits;
+				cout << "{" << limits << "]";
+			}
+
+		}
+
+		cout << "-----------------";
+
+	}
+}
+
+bool flag = true;
+bool flag2 = true;
+
+void save(int lesson, group* G, cabinet* C, int S, int day, int week) {
 
 	int type = C->get_type();
 
-	ofstream fout("Result.txt", ios::app );
-
+	ofstream fout("Result.txt", ios::app);
+	if (flag2) {
+		fout << "week: " << week << " day: " << day << "\n";
+		flag2 = false;
+	}
 	if (flag) {
 
-		fout << "lesson:" << lesson << '\n';
+		fout << "    lesson:" << lesson << '\n';
 		flag = false;
 		fout << "   |      Name:|" << "quantity:|" << "flows|" << "Cabinet|" << "Type" << '\n';
 	}
-		fout << "    " << G->get_name() << " \t " << G->get_q() << " \t  " << G->get_flow() << " \t " << C->get_number() << " \t" << get_typeof_class(type) << "\t" << get_nameof_sub(S) << '\n';
-		fout.close();
+	fout << "    " << G->get_name() << " \t " << G->get_q() << " \t  " << G->get_flow() << " \t " << C->get_number() << " \t" << get_typeof_class(type) << "\t" << get_nameof_sub(S) << '\n';
+	fout.close();
 
-	
+
 	fout.close();
 }
 
@@ -369,9 +444,9 @@ void DELETETHISFUNC() {
 
 	for (int i = 0; i < groups.size(); i++) {
 		group* g = groups[i];
-		cout << g->get_name() <<" f: "<< g->get_flow() << endl;
+		cout << g->get_name() << " f: " << g->get_flow() << endl;
 		for (int j = 0; j < g->sub.size(); j++) {
-			cout <<"  "<<j<< "  " << get_nameof_sub(j) << "     " << get_typeof_class(g->cab[j]) << "  " << g->sub[j]<<endl;
+			cout << "  " << j << "  " << get_nameof_sub(j) << "     " << get_typeof_class(g->cab[j]) << "  " << g->sub[j] << endl;
 		}
 	}
 
@@ -384,8 +459,6 @@ void cabinets_ch_clear() {
 	}
 
 }
-
-
 
 int find_sub(group* cur_g, cabinet* cur_c) {
 
@@ -404,7 +477,7 @@ int find_sub(group* cur_g, cabinet* cur_c) {
 
 vector <group*> del;
 
-void check_sub_empty() { 
+void check_sub_empty() {
 
 	bool f = true;
 
@@ -424,11 +497,24 @@ void check_sub_empty() {
 
 }
 
-
 int tempy = 0;
 
-void distribute(int Lesson) {
+bool check_limits(group* current, int j, int week) {
 
+	bool f = false;
+
+	if (current->hm_times_used_w[j] < current->limits_for_w[j] && current->limits_for_w[j] >= 1.0) {
+		f = true;
+	}
+	else if (current->hm_times_used_w[j] < current->limits_for_w[j] && current->limits_for_w[j] < 1.0) {
+		if (current->used[j]>0)
+		if (week % current->used[j] == 0.0)
+			f = true;
+	}
+	return f;
+}
+
+void distribute(int Lesson, int day, int week) {
 
 	for (int i = 0; i < groups.size(); i++) {
 
@@ -440,40 +526,31 @@ void distribute(int Lesson) {
 
 		for (int j = 0; j < groups[i]->sub.size(); j++) {
 
-			if (groups[i]->sub[tempy] > 0 ){
+			if (groups[i]->sub[j] > 0 && check_limits(groups[i], j, week)) {
 
 				for (int k = 0; k < cabinets.size(); k++) {
 
 					if (cabinets[k]->state() == 0 && cabinets[k]->get_type() == groups[i]->cab[j]) {
 
-						if (groups[i]->sub[tempy] > 0 && groups[i]->get_LF() == 0 ){
+						if (groups[i]->sub[j] > 0 && groups[i]->get_LF() == 0) {
 
-							save(Lesson, groups[i], cabinets[k], tempy);
-							groups[i]->sub[j] = groups[i]->sub[tempy] - 90;
+							save(Lesson, groups[i], cabinets[k], j, day, week);
+
+							groups[i]->sub[j] = groups[i]->sub[j] - 90;
+							groups[i]->hm_times_used_w[j] += 1;
+							groups[i]->hm_times_used_d[j] += 1;
 							cabinets[k]->change_state(1);
 							groups[i]->LF_change(1);
-
 						}
 					}
 				}
-			}
-
-			groups[i]->tempy++;
-			tempy++;
-
-			if (tempy == groups[i]->sub.size()) {
-				groups[i]->tempy = 0;
-				tempy = 0;
 			}
 		}
 	}
 
 }
 
-
-
-
-void delete_used_g(){
+void delete_used_g() {
 
 	for (int i = 0; i < del.size(); i++) {
 		for (int j = 0; j < groups.size(); j++) {
@@ -487,9 +564,9 @@ void delete_used_g(){
 	}
 }
 
-void clean_states(){
-	
-	for (int i = 0; i < groups.size(); i++) 
+void clean_states() {
+
+	for (int i = 0; i < groups.size(); i++)
 		groups[i]->LF_change(0);
 	for (int i = 0; i < cabinets.size(); i++)
 		cabinets[i]->change_state(0);
@@ -497,52 +574,97 @@ void clean_states(){
 }
 
 void distribute() {
-	
+
 	int Lesson = 1;
 	int day = 1;
+	int weeks = 0;
+
 	while (!groups.empty()) {
-		
-		//while (true) {
-			for (int i = 0; i < groups.size() ; i++)
-				distribute(Lesson);
+
+		while (true) {
+
+			//for (int i = 0; i < groups.size() ; i++)
+			distribute(Lesson, day, weeks);
 
 			clean_states();
 			check_sub_empty();
 			delete_used_g();
-		
+
 			Lesson++;
 			flag = true;
-			if (Lesson == 10) {
-				DELETETHISFUNC();
-				cout << "-----------end;";
+
+			if (Lesson == 6) {
 				break;
 			}
-		//}
-		//day++;
-		//if (day == 6)
-		//	break;
+		}
+
+		Lesson = 1;
+		day += 1;
+		flag2 = true;
+
+		if (day % 7 == 0) {
+
+			for (int ttt = 0; ttt < groups.size(); ttt++) {
+				for (int jjj = 0; jjj < groups[ttt]->hm_times_used_w.size(); jjj++)
+					groups[ttt]->hm_times_used_w[jjj] = 0;
+			}
+
+			weeks += 1;
+		}
+		if (day == 21) {
+			break;
+		}
 	}
 
 }
 
+void print_limits() {
+
+	cout << endl;
+	for (int i = 0; i < hours_flows.size(); i++) {
+
+		hours* cur = hours_flows[i];
+
+		for (int j = 0; j < cur->typeof_sub.size(); j++) {
+
+			if (cur->typeof_sub[j] > 0) {
+				cout << "   " << get_nameof_sub(j) << "    " << cur->limits_for_w[j] << endl;
+			}
+		}
+
+		cout << "-----------------";
+	}
+}
+
 int main() {
-	int k = 0;
-	cout << k;
+
 	ofstream fout("Result.txt", ios::trunc);
 	fout.close();
+
 	load_groups();
 	print_g();
+
 	load_cab();
 	cout << endl;
 	print_c();
+
 	load_hours();
+	set_limits();
+	//print_limits();
+
 	cout << endl;
 	print_hours();
 	combine_groups_hours();
 
 	DELETETHISFUNC();
 	cout << endl;
+	//for (int i = 0; i < groups.size(); i++) {
+	//	for (int j = 0; j < groups[i]->used.size(); j++) {
+	//		cout<<"{" << groups[i]->used[j] << "}" << endl;
+	//	}
+	//}
 	distribute();
+
 	print_g();
 
 	return 0;

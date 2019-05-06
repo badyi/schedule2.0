@@ -1,32 +1,46 @@
-week: 0 day: 1
+
+week: 0
+   day: 1
+
     lesson:1
-   |      Name:|quantity:|flows|Cabinet|Type
-    bsbo-12-14 	 30 	  0 	 A4 	lecture	Math
-    kmbo-12-12 	 21 	  1 	 A5 	lecture	Math
+   |        Name:|quantity:|flows|Cabinet|Type
+    bsbo-12-14   	 30 	  0 	 A4 	lecture	Math
+    kmbo-12-12   	 21 	  1 	 A5 	lecture	Math
     lesson:2
-   |      Name:|quantity:|flows|Cabinet|Type
-    bsbo-12-14 	 30 	  0 	 A3 	lab	Xp-programming
-    kmbo-12-12 	 21 	  1 	 A1 	practice	Math
+   |        Name:|quantity:|flows|Cabinet|Type
+    bsbo-12-14   	 30 	  0 	 A3 	lab	Xp-programming
+    kmbo-12-12   	 21 	  1 	 A1 	practice	Math
     lesson:3
-   |      Name:|quantity:|flows|Cabinet|Type
-    kmbo-12-12 	 21 	  1 	 A4 	lecture	Xp-programming
-week: 1 day: 7
+   |        Name:|quantity:|flows|Cabinet|Type
+    bsbo-12-14   	 30 	  0 	 A4 	lecture	Physics
+    kmbo-12-12   	 21 	  1 	 A5 	lecture	Xp-programming
+
+week: 1
+   day: 7
+
     lesson:1
-   |      Name:|quantity:|flows|Cabinet|Type
-    bsbo-12-14 	 30 	  0 	 A4 	lecture	Math
-    kmbo-12-12 	 21 	  1 	 A5 	lecture	Math
+   |        Name:|quantity:|flows|Cabinet|Type
+    bsbo-12-14   	 30 	  0 	 A4 	lecture	Math
+    kmbo-12-12   	 21 	  1 	 A5 	lecture	Math
     lesson:2
-   |      Name:|quantity:|flows|Cabinet|Type
-    kmbo-12-12 	 21 	  1 	 A1 	practice	Math
-week: 2 day: 14
-    lesson:1
-   |      Name:|quantity:|flows|Cabinet|Type
-    bsbo-12-14 	 30 	  0 	 A4 	lecture	Math
-    kmbo-12-12 	 21 	  1 	 A5 	lecture	Math
-    lesson:2
-   |      Name:|quantity:|flows|Cabinet|Type
-    bsbo-12-14 	 30 	  0 	 A3 	lab	Xp-programming
-    kmbo-12-12 	 21 	  1 	 A1 	practice	Math
+   |        Name:|quantity:|flows|Cabinet|Type
+    bsbo-12-14   	 30 	  0 	 A3 	lab	Xp-programming
+    kmbo-12-12   	 21 	  1 	 A1 	practice	Math
     lesson:3
-   |      Name:|quantity:|flows|Cabinet|Type
-    kmbo-12-12 	 21 	  1 	 A4 	lecture	Xp-programming
+   |        Name:|quantity:|flows|Cabinet|Type
+    kmbo-12-12   	 21 	  1 	 A4 	lecture	Xp-programming
+
+week: 2
+   day: 14
+
+    lesson:1
+   |        Name:|quantity:|flows|Cabinet|Type
+    bsbo-12-14   	 30 	  0 	 A4 	lecture	Math
+    kmbo-12-12   	 21 	  1 	 A5 	lecture	Math
+    lesson:2
+   |        Name:|quantity:|flows|Cabinet|Type
+    bsbo-12-14   	 30 	  0 	 A3 	lab	Xp-programming
+    kmbo-12-12   	 21 	  1 	 A1 	practice	Math
+    lesson:3
+   |        Name:|quantity:|flows|Cabinet|Type
+    kmbo-12-12   	 21 	  1 	 A4 	lecture	Xp-programming

@@ -379,8 +379,7 @@ void combine_groups_hours() {
 				float t = 1;
 				float us = buf->limits_for_w[j];
 
-				while (us != 1.0) {
-					us = us * t;
+				while (us * t != 1.0) {
 					t++;
 				}
 				groups[i]->used.push_back(t-1);
@@ -416,23 +415,29 @@ void set_limits() {
 
 bool flag = true;
 bool flag2 = true;
+bool flag3 = true;
 
 void save(int lesson, group* G, cabinet* C, int S, int day, int week) {
 
 	int type = C->get_type();
 
 	ofstream fout("Result.txt", ios::app);
+	if (flag3) {
+		fout << "\nweek: " << week <<"\n";
+		flag3 = false;
+	}
 	if (flag2) {
-		fout << "week: " << week << " day: " << day << "\n";
+		fout << "   day: " << day << "\n\n";
 		flag2 = false;
 	}
 	if (flag) {
 
 		fout << "    lesson:" << lesson << '\n';
 		flag = false;
-		fout << "   |      Name:|" << "quantity:|" << "flows|" << "Cabinet|" << "Type" << '\n';
+		fout << "   |        Name:|" << "quantity:|" << "flows|" << "Cabinet|" << "Type" << '\n';
 	}
-	fout << "    " << G->get_name() << " \t " << G->get_q() << " \t  " << G->get_flow() << " \t " << C->get_number() << " \t" << get_typeof_class(type) << "\t" << get_nameof_sub(S) << '\n';
+
+	fout << "    " << G->get_name() << "   \t " << G->get_q() << " \t  " << G->get_flow() << " \t " << C->get_number() << " \t" << get_typeof_class(type) << "\t" << get_nameof_sub(S) << '\n';
 	fout.close();
 
 
@@ -610,6 +615,7 @@ void distribute() {
 			}
 
 			weeks += 1;
+			flag3 = true;
 		}
 		if (day == 21) {
 			break;

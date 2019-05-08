@@ -349,7 +349,7 @@ void print_hours() { //~
 
 }
 
-void load_hours() { // load data about hours for each flow from txt file "heours.txt"
+void load_hours() { // load data about hours for each flow from txt file "hours.txt"
 
 	string buf;
 	string buf1;

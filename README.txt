@@ -1,3 +1,6 @@
+Расположение
+C:\Users\badyi\source\repos\XP-programming\schedule2.0
+
 ----------------------------------------INPUT DATA
 			"groups.txt" - [имя группы] [количество чел] -  for example: bsbo-13-18 25
 

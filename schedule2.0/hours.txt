@@ -2,14 +2,63 @@ kmbo
 1 0 1440
 2 1 1440
 1 2 720
+1 6 720
+2 7 1440
+3 8 1440
 -
 bsbo
-3 2 720
-1 1 1440
-1 6 360
+1 0 1440
+2 1 1440
+1 2 1440
+2 3 1440
+1 4 720
+2 5 720
+1 6 720
+2 7 1440
+3 8 1440
+2 9 1440
+1 10 2880
+-
+ptbo
+1 0 1440
+2 1 1440
+1 2 1440
+2 3 1440
+1 4 720
+2 5 720
 -
 ~
 
-1 - type of lesson or cabinet. [1] - lecture [2] - practice [3] - lab
-2 - id of subject. for example: [0] - math [1] - xp-prog [2] - history 
-3 - hours in minutesrs in minutes
+1 <first column> - type of lesson or cabinet. 
+
+	[1] - lecture 
+	[2] - practice
+	[3] - lab
+
+2 <second column> - id of subject. for example:
+
+		[0] - math lecture
+		[1] - math practice
+		[2] - algebra lecture
+		[3] - algebra practice
+		[4] - xp-prog lecture
+		[5] - xp-prog practice
+		[6] - Physics lecture
+		[7] - Physics practice
+		[8] - Physics lab
+		[9] - Foreign languages practice 
+		[10] - Physical education 
+		[11] - Programming lecture
+		[12] - Programming practice
+		[13] - Programming lab
+		[14] - Math logic lecture
+		[15] - Math logic practice
+		[16] - Math logic lab
+		[17] - discrete math lecture
+	        [18] - discrete math practice
+		[19] - Economics lecture
+		[20] - Econimics practice
+		[21] - Computer System Organization // lecture
+		[22] - Computer System Organization // prectice
+
+3 -<third column> hours in minutes

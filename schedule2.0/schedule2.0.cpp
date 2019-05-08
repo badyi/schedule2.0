@@ -526,21 +526,6 @@ void cabinets_ch_clear() {  // clear states of each cabinet
 
 }
 
-int find_sub(group* cur_g, cabinet* cur_c) {
-
-	for (int i = 0; i < cur_g->sub.size(); i++) {
-		if (cur_c->get_type() == cur_g->cab[i] && cur_g->sub[i] > 0) {
-
-			cur_g->sub[i] = cur_g->sub[i] - 90;
-			//cout << "    -----{  " << i;
-			return i;
-
-		}
-	}
-
-	return -1;
-}
-
 vector <group*> del;
 
 void check_sub_empty() {
@@ -562,8 +547,6 @@ void check_sub_empty() {
 	}
 
 }
-
-int tempy = 0;
 
 bool check_limits(group* current, int j, int week) {
 

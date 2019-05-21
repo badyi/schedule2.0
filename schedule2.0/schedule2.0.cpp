@@ -562,6 +562,7 @@ bool check_limits(group* current, int j, int week) {
 				f = true;
 			}
 	}
+
 	return f;
 }
 
@@ -718,6 +719,11 @@ void distribute() {
 		day += 1;
 		flag2 = true;
 
+		for (int ttt = 0; ttt < groups.size(); ttt++) {
+			for (int jjj = 0; jjj < groups[ttt]->hm_times_used_d.size(); jjj++)
+				groups[ttt]->hm_times_used_d[jjj] = 0;
+		}
+
 		if (day % 7 == 0) {
 
 			for (int ttt = 0; ttt < groups.size(); ttt++) {
@@ -728,6 +734,7 @@ void distribute() {
 			weeks += 1;
 			flag3 = true;
 		}
+
 		if (day == 121) {
 			break;
 		}

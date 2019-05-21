@@ -5,7 +5,623 @@ Week: 0
 
    |        Name:|  quantity:|  flows|  Cabinet|Type
     ---------------------------------------Lesson: 1 -----------------------------------------
-    flow - 0     	 21 	  0 	 A4 	lecture	Math
+    flow - 0     	 44 	  0 	 A4 	lecture	Math
+    flow - 1     	 133 	  1 	 A6 	lecture	Math
+    flow - 2     	 50 	  2 	 A5 	lecture	Math
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A1 	practice	Math
+    bsbo-13-18     	 30 	  1 	 A2 	practice	Math
+    bsbo-14-17     	 25 	  1 	 A7 	practice	Math
+    ptbo-16-18     	 27 	  2 	 B3 	practice	Math
+    bsbo-12-16     	 26 	  1 	 A3 	lab	Physics
+    kmbo-02-16     	 23 	  0 	 B1 	lab	Physics
+    bsbo-17-17     	 30 	  1 	 B2 	lab	Physics
+    bsbo-15-18     	 22 	  1 	 B4 	lab	Physics
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    flow - 0     	 44 	  0 	 A4 	lecture	Algebra
+    flow - 1     	 133 	  1 	 A6 	lecture	Algebra
+    flow - 2     	 50 	  2 	 A5 	lecture	Algebra
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    flow - 0     	 44 	  0 	 A4 	lecture	Physics
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Algebra
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Algebra
+    ptbo-16-18     	 27 	  2 	 A7 	practice	Algebra
+    ptbo-01-18     	 23 	  2 	 B3 	practice	Math
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A1 	practice	Physics
+    flow - 1     	 133 	  1 	 A6 	lecture	Xp-programming
+    flow - 2     	 50 	  2 	 A4 	lecture	Xp-programming
+    kmbo-02-16     	 23 	  0 	 A2 	practice	Math
+
+   day: 2
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A3 	lab	Physics
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Xp-programming
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Xp-programming
+    ptbo-16-18     	 27 	  2 	 A7 	practice	Xp-programming
+    ptbo-01-18     	 23 	  2 	 B3 	practice	Algebra
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physics
+    ptbo-01-18     	 23 	  2 	 A1 	practice	Xp-programming
+    kmbo-02-16     	 23 	  0 	 A2 	practice	Physics
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Physics
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Physics
+    bsbo-12-16     	 26 	  1 	 A7 	practice	Math
+    bsbo-17-17     	 30 	  1 	 B3 	practice	Math
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A3 	lab	Physics
+    bsbo-14-17     	 25 	  1 	 B1 	lab	Physics
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Algebra
+    bsbo-17-17     	 30 	  1 	 A2 	practice	Algebra
+    bsbo-15-18     	 22 	  1 	 A7 	practice	Math
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Foreign language
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Foreign language
+    bsbo-12-16     	 26 	  1 	 A7 	practice	Xp-programming
+    bsbo-17-17     	 30 	  1 	 B3 	practice	Xp-programming
+
+   day: 3
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physical education
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Physics
+    bsbo-17-17     	 30 	  1 	 A2 	practice	Physics
+    bsbo-15-18     	 22 	  1 	 A7 	practice	Algebra
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Foreign language
+    bsbo-17-17     	 30 	  1 	 A2 	practice	Foreign language
+    bsbo-15-18     	 22 	  1 	 A7 	practice	Xp-programming
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    bsbo-15-18     	 22 	  1 	 A1 	practice	Physics
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    bsbo-15-18     	 22 	  1 	 A1 	practice	Foreign language
+
+   day: 4
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physical education
+
+Week: 1
+
+   day: 7
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 0     	 44 	  0 	 A4 	lecture	Math
+    flow - 1     	 133 	  1 	 A6 	lecture	Math
+    flow - 2     	 50 	  2 	 A5 	lecture	Math
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A1 	practice	Math
+    bsbo-13-18     	 30 	  1 	 A2 	practice	Math
+    bsbo-14-17     	 25 	  1 	 A7 	practice	Math
+    ptbo-16-18     	 27 	  2 	 B3 	practice	Math
+    bsbo-12-16     	 26 	  1 	 A3 	lab	Physics
+    kmbo-02-16     	 23 	  0 	 B1 	lab	Physics
+    bsbo-17-17     	 30 	  1 	 B2 	lab	Physics
+    bsbo-15-18     	 22 	  1 	 B4 	lab	Physics
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A1 	practice	Physics
+    flow - 1     	 133 	  1 	 A6 	lecture	Algebra
+    flow - 2     	 50 	  2 	 A4 	lecture	Algebra
+    kmbo-02-16     	 23 	  0 	 A2 	practice	Math
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A3 	lab	Physics
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Algebra
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Algebra
+    ptbo-16-18     	 27 	  2 	 A7 	practice	Algebra
+    ptbo-01-18     	 23 	  2 	 B3 	practice	Math
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Physics
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Physics
+    ptbo-01-18     	 23 	  2 	 A7 	practice	Algebra
+    bsbo-12-16     	 26 	  1 	 B3 	practice	Math
+
+   day: 8
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A3 	lab	Physics
+    bsbo-14-17     	 25 	  1 	 B1 	lab	Physics
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Algebra
+    kmbo-02-16     	 23 	  0 	 A2 	practice	Physics
+    bsbo-17-17     	 30 	  1 	 A7 	practice	Math
+    bsbo-15-18     	 22 	  1 	 B3 	practice	Math
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Foreign language
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Foreign language
+    bsbo-12-16     	 26 	  1 	 A7 	practice	Physics
+    bsbo-17-17     	 30 	  1 	 B3 	practice	Algebra
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physical education
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Foreign language
+    bsbo-17-17     	 30 	  1 	 A2 	practice	Physics
+    bsbo-15-18     	 22 	  1 	 A7 	practice	Algebra
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    bsbo-17-17     	 30 	  1 	 A1 	practice	Foreign language
+    bsbo-15-18     	 22 	  1 	 A2 	practice	Physics
+
+   day: 9
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physical education
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    bsbo-15-18     	 22 	  1 	 A1 	practice	Foreign language
+
+Week: 2
+
+   day: 14
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 0     	 44 	  0 	 A4 	lecture	Math
+    flow - 1     	 133 	  1 	 A6 	lecture	Math
+    flow - 2     	 50 	  2 	 A5 	lecture	Math
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A1 	practice	Math
+    bsbo-13-18     	 30 	  1 	 A2 	practice	Math
+    bsbo-14-17     	 25 	  1 	 A7 	practice	Math
+    ptbo-16-18     	 27 	  2 	 B3 	practice	Math
+    bsbo-12-16     	 26 	  1 	 A3 	lab	Physics
+    kmbo-02-16     	 23 	  0 	 B1 	lab	Physics
+    bsbo-17-17     	 30 	  1 	 B2 	lab	Physics
+    bsbo-15-18     	 22 	  1 	 B4 	lab	Physics
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    flow - 0     	 44 	  0 	 A4 	lecture	Algebra
+    flow - 1     	 133 	  1 	 A6 	lecture	Algebra
+    flow - 2     	 50 	  2 	 A5 	lecture	Algebra
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    flow - 0     	 44 	  0 	 A4 	lecture	Physics
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Algebra
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Algebra
+    ptbo-16-18     	 27 	  2 	 A7 	practice	Algebra
+    ptbo-01-18     	 23 	  2 	 B3 	practice	Math
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A1 	practice	Physics
+    flow - 1     	 133 	  1 	 A6 	lecture	Xp-programming
+    flow - 2     	 50 	  2 	 A4 	lecture	Xp-programming
+    kmbo-02-16     	 23 	  0 	 A2 	practice	Math
+
+   day: 15
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A3 	lab	Physics
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Xp-programming
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Xp-programming
+    ptbo-16-18     	 27 	  2 	 A7 	practice	Xp-programming
+    ptbo-01-18     	 23 	  2 	 B3 	practice	Algebra
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physics
+    ptbo-01-18     	 23 	  2 	 A1 	practice	Xp-programming
+    kmbo-02-16     	 23 	  0 	 A2 	practice	Physics
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Physics
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Physics
+    bsbo-12-16     	 26 	  1 	 A7 	practice	Math
+    bsbo-17-17     	 30 	  1 	 B3 	practice	Math
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A3 	lab	Physics
+    bsbo-14-17     	 25 	  1 	 B1 	lab	Physics
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Algebra
+    bsbo-17-17     	 30 	  1 	 A2 	practice	Algebra
+    bsbo-15-18     	 22 	  1 	 A7 	practice	Math
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Foreign language
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Foreign language
+    bsbo-12-16     	 26 	  1 	 A7 	practice	Xp-programming
+    bsbo-17-17     	 30 	  1 	 B3 	practice	Xp-programming
+
+   day: 16
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physical education
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Physics
+    bsbo-17-17     	 30 	  1 	 A2 	practice	Physics
+    bsbo-15-18     	 22 	  1 	 A7 	practice	Algebra
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Foreign language
+    bsbo-17-17     	 30 	  1 	 A2 	practice	Foreign language
+    bsbo-15-18     	 22 	  1 	 A7 	practice	Xp-programming
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    bsbo-15-18     	 22 	  1 	 A1 	practice	Physics
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    bsbo-15-18     	 22 	  1 	 A1 	practice	Foreign language
+
+   day: 17
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physical education
+
+Week: 3
+
+   day: 21
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 0     	 44 	  0 	 A4 	lecture	Math
+    flow - 1     	 133 	  1 	 A6 	lecture	Math
+    flow - 2     	 50 	  2 	 A5 	lecture	Math
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A1 	practice	Math
+    bsbo-13-18     	 30 	  1 	 A2 	practice	Math
+    bsbo-14-17     	 25 	  1 	 A7 	practice	Math
+    ptbo-16-18     	 27 	  2 	 B3 	practice	Math
+    bsbo-12-16     	 26 	  1 	 A3 	lab	Physics
+    kmbo-02-16     	 23 	  0 	 B1 	lab	Physics
+    bsbo-17-17     	 30 	  1 	 B2 	lab	Physics
+    bsbo-15-18     	 22 	  1 	 B4 	lab	Physics
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A1 	practice	Physics
+    flow - 1     	 133 	  1 	 A6 	lecture	Algebra
+    flow - 2     	 50 	  2 	 A4 	lecture	Algebra
+    kmbo-02-16     	 23 	  0 	 A2 	practice	Math
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A3 	lab	Physics
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Algebra
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Algebra
+    ptbo-16-18     	 27 	  2 	 A7 	practice	Algebra
+    ptbo-01-18     	 23 	  2 	 B3 	practice	Math
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Physics
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Physics
+    ptbo-01-18     	 23 	  2 	 A7 	practice	Algebra
+    bsbo-12-16     	 26 	  1 	 B3 	practice	Math
+
+   day: 22
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A3 	lab	Physics
+    bsbo-14-17     	 25 	  1 	 B1 	lab	Physics
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Algebra
+    kmbo-02-16     	 23 	  0 	 A2 	practice	Physics
+    bsbo-17-17     	 30 	  1 	 A7 	practice	Math
+    bsbo-15-18     	 22 	  1 	 B3 	practice	Math
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Foreign language
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Foreign language
+    bsbo-12-16     	 26 	  1 	 A7 	practice	Physics
+    bsbo-17-17     	 30 	  1 	 B3 	practice	Algebra
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physical education
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Foreign language
+    bsbo-17-17     	 30 	  1 	 A2 	practice	Physics
+    bsbo-15-18     	 22 	  1 	 A7 	practice	Algebra
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    bsbo-17-17     	 30 	  1 	 A1 	practice	Foreign language
+    bsbo-15-18     	 22 	  1 	 A2 	practice	Physics
+
+   day: 23
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physical education
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    bsbo-15-18     	 22 	  1 	 A1 	practice	Foreign language
+
+Week: 4
+
+   day: 28
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 0     	 44 	  0 	 A4 	lecture	Math
+    flow - 1     	 133 	  1 	 A6 	lecture	Math
+    flow - 2     	 50 	  2 	 A5 	lecture	Math
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A1 	practice	Math
+    bsbo-13-18     	 30 	  1 	 A2 	practice	Math
+    bsbo-14-17     	 25 	  1 	 A7 	practice	Math
+    ptbo-16-18     	 27 	  2 	 B3 	practice	Math
+    bsbo-12-16     	 26 	  1 	 A3 	lab	Physics
+    kmbo-02-16     	 23 	  0 	 B1 	lab	Physics
+    bsbo-17-17     	 30 	  1 	 B2 	lab	Physics
+    bsbo-15-18     	 22 	  1 	 B4 	lab	Physics
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    flow - 0     	 44 	  0 	 A4 	lecture	Algebra
+    flow - 1     	 133 	  1 	 A6 	lecture	Algebra
+    flow - 2     	 50 	  2 	 A5 	lecture	Algebra
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    flow - 0     	 44 	  0 	 A4 	lecture	Physics
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Algebra
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Algebra
+    ptbo-16-18     	 27 	  2 	 A7 	practice	Algebra
+    ptbo-01-18     	 23 	  2 	 B3 	practice	Math
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A1 	practice	Physics
+    flow - 1     	 133 	  1 	 A6 	lecture	Xp-programming
+    flow - 2     	 50 	  2 	 A4 	lecture	Xp-programming
+    kmbo-02-16     	 23 	  0 	 A2 	practice	Math
+
+   day: 29
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A3 	lab	Physics
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Xp-programming
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Xp-programming
+    ptbo-16-18     	 27 	  2 	 A7 	practice	Xp-programming
+    ptbo-01-18     	 23 	  2 	 B3 	practice	Algebra
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physics
+    ptbo-01-18     	 23 	  2 	 A1 	practice	Xp-programming
+    kmbo-02-16     	 23 	  0 	 A2 	practice	Physics
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Physics
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Physics
+    bsbo-12-16     	 26 	  1 	 A7 	practice	Math
+    bsbo-17-17     	 30 	  1 	 B3 	practice	Math
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A3 	lab	Physics
+    bsbo-14-17     	 25 	  1 	 B1 	lab	Physics
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Algebra
+    bsbo-17-17     	 30 	  1 	 A2 	practice	Algebra
+    bsbo-15-18     	 22 	  1 	 A7 	practice	Math
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Foreign language
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Foreign language
+    bsbo-12-16     	 26 	  1 	 A7 	practice	Xp-programming
+    bsbo-17-17     	 30 	  1 	 B3 	practice	Xp-programming
+
+   day: 30
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physical education
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Physics
+    bsbo-17-17     	 30 	  1 	 A2 	practice	Physics
+    bsbo-15-18     	 22 	  1 	 A7 	practice	Algebra
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Foreign language
+    bsbo-17-17     	 30 	  1 	 A2 	practice	Foreign language
+    bsbo-15-18     	 22 	  1 	 A7 	practice	Xp-programming
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    bsbo-15-18     	 22 	  1 	 A1 	practice	Physics
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    bsbo-15-18     	 22 	  1 	 A1 	practice	Foreign language
+
+   day: 31
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physical education
+
+Week: 5
+
+   day: 35
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 0     	 44 	  0 	 A4 	lecture	Math
+    flow - 1     	 133 	  1 	 A6 	lecture	Math
+    flow - 2     	 50 	  2 	 A5 	lecture	Math
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A1 	practice	Math
+    bsbo-13-18     	 30 	  1 	 A2 	practice	Math
+    bsbo-14-17     	 25 	  1 	 A7 	practice	Math
+    ptbo-16-18     	 27 	  2 	 B3 	practice	Math
+    bsbo-12-16     	 26 	  1 	 A3 	lab	Physics
+    kmbo-02-16     	 23 	  0 	 B1 	lab	Physics
+    bsbo-17-17     	 30 	  1 	 B2 	lab	Physics
+    bsbo-15-18     	 22 	  1 	 B4 	lab	Physics
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A1 	practice	Physics
+    flow - 1     	 133 	  1 	 A6 	lecture	Algebra
+    flow - 2     	 50 	  2 	 A4 	lecture	Algebra
+    kmbo-02-16     	 23 	  0 	 A2 	practice	Math
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A3 	lab	Physics
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Algebra
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Algebra
+    ptbo-16-18     	 27 	  2 	 A7 	practice	Algebra
+    ptbo-01-18     	 23 	  2 	 B3 	practice	Math
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Physics
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Physics
+    ptbo-01-18     	 23 	  2 	 A7 	practice	Algebra
+    bsbo-12-16     	 26 	  1 	 B3 	practice	Math
+
+   day: 36
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A3 	lab	Physics
+    bsbo-14-17     	 25 	  1 	 B1 	lab	Physics
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Algebra
+    kmbo-02-16     	 23 	  0 	 A2 	practice	Physics
+    bsbo-17-17     	 30 	  1 	 A7 	practice	Math
+    bsbo-15-18     	 22 	  1 	 B3 	practice	Math
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Foreign language
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Foreign language
+    bsbo-12-16     	 26 	  1 	 A7 	practice	Physics
+    bsbo-17-17     	 30 	  1 	 B3 	practice	Algebra
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physical education
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Foreign language
+    bsbo-17-17     	 30 	  1 	 A2 	practice	Physics
+    bsbo-15-18     	 22 	  1 	 A7 	practice	Algebra
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    bsbo-17-17     	 30 	  1 	 A1 	practice	Foreign language
+    bsbo-15-18     	 22 	  1 	 A2 	practice	Physics
+
+   day: 37
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physical education
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    bsbo-15-18     	 22 	  1 	 A1 	practice	Foreign language
+
+Week: 6
+
+   day: 42
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 0     	 44 	  0 	 A4 	lecture	Math
+    flow - 1     	 133 	  1 	 A6 	lecture	Math
+    flow - 2     	 50 	  2 	 A5 	lecture	Math
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A1 	practice	Math
+    bsbo-13-18     	 30 	  1 	 A2 	practice	Math
+    bsbo-14-17     	 25 	  1 	 A7 	practice	Math
+    ptbo-16-18     	 27 	  2 	 B3 	practice	Math
+    bsbo-12-16     	 26 	  1 	 A3 	lab	Physics
+    kmbo-02-16     	 23 	  0 	 B1 	lab	Physics
+    bsbo-17-17     	 30 	  1 	 B2 	lab	Physics
+    bsbo-15-18     	 22 	  1 	 B4 	lab	Physics
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    flow - 0     	 44 	  0 	 A4 	lecture	Algebra
+    flow - 1     	 133 	  1 	 A6 	lecture	Algebra
+    flow - 2     	 50 	  2 	 A5 	lecture	Algebra
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    flow - 0     	 44 	  0 	 A4 	lecture	Physics
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Algebra
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Algebra
+    ptbo-16-18     	 27 	  2 	 A7 	practice	Algebra
+    ptbo-01-18     	 23 	  2 	 B3 	practice	Math
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A1 	practice	Physics
+    flow - 1     	 133 	  1 	 A6 	lecture	Xp-programming
+    flow - 2     	 50 	  2 	 A4 	lecture	Xp-programming
+    kmbo-02-16     	 23 	  0 	 A2 	practice	Math
+
+   day: 43
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A3 	lab	Physics
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Xp-programming
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Xp-programming
+    ptbo-16-18     	 27 	  2 	 A7 	practice	Xp-programming
+    ptbo-01-18     	 23 	  2 	 B3 	practice	Algebra
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physics
+    ptbo-01-18     	 23 	  2 	 A1 	practice	Xp-programming
+    kmbo-02-16     	 23 	  0 	 A2 	practice	Physics
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Physics
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Physics
+    bsbo-12-16     	 26 	  1 	 A7 	practice	Math
+    bsbo-17-17     	 30 	  1 	 B3 	practice	Math
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A3 	lab	Physics
+    bsbo-14-17     	 25 	  1 	 B1 	lab	Physics
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Algebra
+    bsbo-17-17     	 30 	  1 	 A2 	practice	Algebra
+    bsbo-15-18     	 22 	  1 	 A7 	practice	Math
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Foreign language
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Foreign language
+    bsbo-12-16     	 26 	  1 	 A7 	practice	Xp-programming
+    bsbo-17-17     	 30 	  1 	 B3 	practice	Xp-programming
+
+   day: 44
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physical education
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Physics
+    bsbo-17-17     	 30 	  1 	 A2 	practice	Physics
+    bsbo-15-18     	 22 	  1 	 A7 	practice	Algebra
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Foreign language
+    bsbo-17-17     	 30 	  1 	 A2 	practice	Foreign language
+    bsbo-15-18     	 22 	  1 	 A7 	practice	Xp-programming
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    bsbo-15-18     	 22 	  1 	 A1 	practice	Physics
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    bsbo-15-18     	 22 	  1 	 A1 	practice	Foreign language
+
+   day: 45
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physical education
+
+Week: 7
+
+   day: 49
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 0     	 44 	  0 	 A4 	lecture	Math
+    flow - 1     	 133 	  1 	 A6 	lecture	Math
+    flow - 2     	 50 	  2 	 A5 	lecture	Math
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A1 	practice	Math
+    bsbo-13-18     	 30 	  1 	 A2 	practice	Math
+    bsbo-14-17     	 25 	  1 	 A7 	practice	Math
+    ptbo-16-18     	 27 	  2 	 B3 	practice	Math
+    bsbo-12-16     	 26 	  1 	 A3 	lab	Physics
+    kmbo-02-16     	 23 	  0 	 B1 	lab	Physics
+    bsbo-17-17     	 30 	  1 	 B2 	lab	Physics
+    bsbo-15-18     	 22 	  1 	 B4 	lab	Physics
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A1 	practice	Physics
+    flow - 1     	 133 	  1 	 A6 	lecture	Algebra
+    flow - 2     	 50 	  2 	 A4 	lecture	Algebra
+    kmbo-02-16     	 23 	  0 	 A2 	practice	Math
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A3 	lab	Physics
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Algebra
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Algebra
+    ptbo-16-18     	 27 	  2 	 A7 	practice	Algebra
+    ptbo-01-18     	 23 	  2 	 B3 	practice	Math
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Physics
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Physics
+    ptbo-01-18     	 23 	  2 	 A7 	practice	Algebra
+    bsbo-12-16     	 26 	  1 	 B3 	practice	Math
+
+   day: 50
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A3 	lab	Physics
+    bsbo-14-17     	 25 	  1 	 B1 	lab	Physics
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Algebra
+    kmbo-02-16     	 23 	  0 	 A2 	practice	Physics
+    bsbo-17-17     	 30 	  1 	 A7 	practice	Math
+    bsbo-15-18     	 22 	  1 	 B3 	practice	Math
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Foreign language
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Foreign language
+    bsbo-12-16     	 26 	  1 	 A7 	practice	Physics
+    bsbo-17-17     	 30 	  1 	 B3 	practice	Algebra
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physical education
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Foreign language
+    bsbo-17-17     	 30 	  1 	 A2 	practice	Physics
+    bsbo-15-18     	 22 	  1 	 A7 	practice	Algebra
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    bsbo-17-17     	 30 	  1 	 A1 	practice	Foreign language
+    bsbo-15-18     	 22 	  1 	 A2 	practice	Physics
+
+   day: 51
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physical education
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    bsbo-15-18     	 22 	  1 	 A1 	practice	Foreign language
 
 Week: 8
 
@@ -13,4 +629,620 @@ Week: 8
 
    |        Name:|  quantity:|  flows|  Cabinet|Type
     ---------------------------------------Lesson: 1 -----------------------------------------
-    flow - 0     	 21 	  0 	 A4 	lecture	Math
+    flow - 0     	 44 	  0 	 A4 	lecture	Math
+    flow - 1     	 133 	  1 	 A6 	lecture	Math
+    flow - 2     	 50 	  2 	 A5 	lecture	Math
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A1 	practice	Math
+    bsbo-13-18     	 30 	  1 	 A2 	practice	Math
+    bsbo-14-17     	 25 	  1 	 A7 	practice	Math
+    ptbo-16-18     	 27 	  2 	 B3 	practice	Math
+    bsbo-12-16     	 26 	  1 	 A3 	lab	Physics
+    kmbo-02-16     	 23 	  0 	 B1 	lab	Physics
+    bsbo-17-17     	 30 	  1 	 B2 	lab	Physics
+    bsbo-15-18     	 22 	  1 	 B4 	lab	Physics
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    flow - 0     	 44 	  0 	 A4 	lecture	Algebra
+    flow - 1     	 133 	  1 	 A6 	lecture	Algebra
+    flow - 2     	 50 	  2 	 A5 	lecture	Algebra
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    flow - 0     	 44 	  0 	 A4 	lecture	Physics
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Algebra
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Algebra
+    ptbo-16-18     	 27 	  2 	 A7 	practice	Algebra
+    ptbo-01-18     	 23 	  2 	 B3 	practice	Math
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A1 	practice	Physics
+    flow - 1     	 133 	  1 	 A6 	lecture	Xp-programming
+    flow - 2     	 50 	  2 	 A4 	lecture	Xp-programming
+    kmbo-02-16     	 23 	  0 	 A2 	practice	Math
+
+   day: 57
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A3 	lab	Physics
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Xp-programming
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Xp-programming
+    ptbo-16-18     	 27 	  2 	 A7 	practice	Xp-programming
+    ptbo-01-18     	 23 	  2 	 B3 	practice	Algebra
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physics
+    ptbo-01-18     	 23 	  2 	 A1 	practice	Xp-programming
+    kmbo-02-16     	 23 	  0 	 A2 	practice	Physics
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Physics
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Physics
+    bsbo-12-16     	 26 	  1 	 A7 	practice	Math
+    bsbo-17-17     	 30 	  1 	 B3 	practice	Math
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A3 	lab	Physics
+    bsbo-14-17     	 25 	  1 	 B1 	lab	Physics
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Algebra
+    bsbo-17-17     	 30 	  1 	 A2 	practice	Algebra
+    bsbo-15-18     	 22 	  1 	 A7 	practice	Math
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Foreign language
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Foreign language
+    bsbo-12-16     	 26 	  1 	 A7 	practice	Xp-programming
+    bsbo-17-17     	 30 	  1 	 B3 	practice	Xp-programming
+
+   day: 58
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physical education
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Physics
+    bsbo-17-17     	 30 	  1 	 A2 	practice	Physics
+    bsbo-15-18     	 22 	  1 	 A7 	practice	Algebra
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Foreign language
+    bsbo-17-17     	 30 	  1 	 A2 	practice	Foreign language
+    bsbo-15-18     	 22 	  1 	 A7 	practice	Xp-programming
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    bsbo-15-18     	 22 	  1 	 A1 	practice	Physics
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    bsbo-15-18     	 22 	  1 	 A1 	practice	Foreign language
+
+   day: 59
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physical education
+
+Week: 9
+
+   day: 63
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 0     	 44 	  0 	 A4 	lecture	Math
+    flow - 1     	 133 	  1 	 A6 	lecture	Math
+    flow - 2     	 50 	  2 	 A5 	lecture	Math
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A1 	practice	Math
+    bsbo-13-18     	 30 	  1 	 A2 	practice	Math
+    bsbo-14-17     	 25 	  1 	 A7 	practice	Math
+    ptbo-16-18     	 27 	  2 	 B3 	practice	Math
+    bsbo-12-16     	 26 	  1 	 A3 	lab	Physics
+    kmbo-02-16     	 23 	  0 	 B1 	lab	Physics
+    bsbo-17-17     	 30 	  1 	 B2 	lab	Physics
+    bsbo-15-18     	 22 	  1 	 B4 	lab	Physics
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A1 	practice	Physics
+    flow - 1     	 133 	  1 	 A6 	lecture	Algebra
+    flow - 2     	 50 	  2 	 A4 	lecture	Algebra
+    kmbo-02-16     	 23 	  0 	 A2 	practice	Math
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A3 	lab	Physics
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Algebra
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Algebra
+    ptbo-16-18     	 27 	  2 	 A7 	practice	Algebra
+    ptbo-01-18     	 23 	  2 	 B3 	practice	Math
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Physics
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Physics
+    ptbo-01-18     	 23 	  2 	 A7 	practice	Algebra
+    bsbo-12-16     	 26 	  1 	 B3 	practice	Math
+
+   day: 64
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A3 	lab	Physics
+    bsbo-14-17     	 25 	  1 	 B1 	lab	Physics
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Algebra
+    kmbo-02-16     	 23 	  0 	 A2 	practice	Physics
+    bsbo-17-17     	 30 	  1 	 A7 	practice	Math
+    bsbo-15-18     	 22 	  1 	 B3 	practice	Math
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Foreign language
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Foreign language
+    bsbo-12-16     	 26 	  1 	 A7 	practice	Physics
+    bsbo-17-17     	 30 	  1 	 B3 	practice	Algebra
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physical education
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Foreign language
+    bsbo-17-17     	 30 	  1 	 A2 	practice	Physics
+    bsbo-15-18     	 22 	  1 	 A7 	practice	Algebra
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    bsbo-17-17     	 30 	  1 	 A1 	practice	Foreign language
+    bsbo-15-18     	 22 	  1 	 A2 	practice	Physics
+
+   day: 65
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physical education
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    bsbo-15-18     	 22 	  1 	 A1 	practice	Foreign language
+
+Week: 10
+
+   day: 70
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 0     	 44 	  0 	 A4 	lecture	Math
+    flow - 1     	 133 	  1 	 A6 	lecture	Math
+    flow - 2     	 50 	  2 	 A5 	lecture	Math
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A1 	practice	Math
+    bsbo-13-18     	 30 	  1 	 A2 	practice	Math
+    bsbo-14-17     	 25 	  1 	 A7 	practice	Math
+    ptbo-16-18     	 27 	  2 	 B3 	practice	Math
+    bsbo-12-16     	 26 	  1 	 A3 	lab	Physics
+    kmbo-02-16     	 23 	  0 	 B1 	lab	Physics
+    bsbo-17-17     	 30 	  1 	 B2 	lab	Physics
+    bsbo-15-18     	 22 	  1 	 B4 	lab	Physics
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    flow - 0     	 44 	  0 	 A4 	lecture	Algebra
+    flow - 1     	 133 	  1 	 A6 	lecture	Algebra
+    flow - 2     	 50 	  2 	 A5 	lecture	Algebra
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    flow - 0     	 44 	  0 	 A4 	lecture	Physics
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Algebra
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Algebra
+    ptbo-16-18     	 27 	  2 	 A7 	practice	Algebra
+    ptbo-01-18     	 23 	  2 	 B3 	practice	Math
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A1 	practice	Physics
+    flow - 1     	 133 	  1 	 A6 	lecture	Xp-programming
+    flow - 2     	 50 	  2 	 A4 	lecture	Xp-programming
+    kmbo-02-16     	 23 	  0 	 A2 	practice	Math
+
+   day: 71
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A3 	lab	Physics
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Xp-programming
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Xp-programming
+    ptbo-16-18     	 27 	  2 	 A7 	practice	Xp-programming
+    ptbo-01-18     	 23 	  2 	 B3 	practice	Algebra
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physics
+    ptbo-01-18     	 23 	  2 	 A1 	practice	Xp-programming
+    kmbo-02-16     	 23 	  0 	 A2 	practice	Physics
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Physics
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Physics
+    bsbo-12-16     	 26 	  1 	 A7 	practice	Math
+    bsbo-17-17     	 30 	  1 	 B3 	practice	Math
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A3 	lab	Physics
+    bsbo-14-17     	 25 	  1 	 B1 	lab	Physics
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Algebra
+    bsbo-17-17     	 30 	  1 	 A2 	practice	Algebra
+    bsbo-15-18     	 22 	  1 	 A7 	practice	Math
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Foreign language
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Foreign language
+    bsbo-12-16     	 26 	  1 	 A7 	practice	Xp-programming
+    bsbo-17-17     	 30 	  1 	 B3 	practice	Xp-programming
+
+   day: 72
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physical education
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Physics
+    bsbo-17-17     	 30 	  1 	 A2 	practice	Physics
+    bsbo-15-18     	 22 	  1 	 A7 	practice	Algebra
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Foreign language
+    bsbo-17-17     	 30 	  1 	 A2 	practice	Foreign language
+    bsbo-15-18     	 22 	  1 	 A7 	practice	Xp-programming
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    bsbo-15-18     	 22 	  1 	 A1 	practice	Physics
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    bsbo-15-18     	 22 	  1 	 A1 	practice	Foreign language
+
+   day: 73
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physical education
+
+Week: 11
+
+   day: 77
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 0     	 44 	  0 	 A4 	lecture	Math
+    flow - 1     	 133 	  1 	 A6 	lecture	Math
+    flow - 2     	 50 	  2 	 A5 	lecture	Math
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A1 	practice	Math
+    bsbo-13-18     	 30 	  1 	 A2 	practice	Math
+    bsbo-14-17     	 25 	  1 	 A7 	practice	Math
+    ptbo-16-18     	 27 	  2 	 B3 	practice	Math
+    bsbo-12-16     	 26 	  1 	 A3 	lab	Physics
+    kmbo-02-16     	 23 	  0 	 B1 	lab	Physics
+    bsbo-17-17     	 30 	  1 	 B2 	lab	Physics
+    bsbo-15-18     	 22 	  1 	 B4 	lab	Physics
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A1 	practice	Physics
+    flow - 1     	 133 	  1 	 A6 	lecture	Algebra
+    flow - 2     	 50 	  2 	 A4 	lecture	Algebra
+    kmbo-02-16     	 23 	  0 	 A2 	practice	Math
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A3 	lab	Physics
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Algebra
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Algebra
+    ptbo-16-18     	 27 	  2 	 A7 	practice	Algebra
+    ptbo-01-18     	 23 	  2 	 B3 	practice	Math
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Physics
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Physics
+    ptbo-01-18     	 23 	  2 	 A7 	practice	Algebra
+    bsbo-12-16     	 26 	  1 	 B3 	practice	Math
+
+   day: 78
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A3 	lab	Physics
+    bsbo-14-17     	 25 	  1 	 B1 	lab	Physics
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Algebra
+    kmbo-02-16     	 23 	  0 	 A2 	practice	Physics
+    bsbo-17-17     	 30 	  1 	 A7 	practice	Math
+    bsbo-15-18     	 22 	  1 	 B3 	practice	Math
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Foreign language
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Foreign language
+    bsbo-12-16     	 26 	  1 	 A7 	practice	Physics
+    bsbo-17-17     	 30 	  1 	 B3 	practice	Algebra
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physical education
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Foreign language
+    bsbo-17-17     	 30 	  1 	 A2 	practice	Physics
+    bsbo-15-18     	 22 	  1 	 A7 	practice	Algebra
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    bsbo-17-17     	 30 	  1 	 A1 	practice	Foreign language
+    bsbo-15-18     	 22 	  1 	 A2 	practice	Physics
+
+   day: 79
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physical education
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    bsbo-15-18     	 22 	  1 	 A1 	practice	Foreign language
+
+Week: 12
+
+   day: 84
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 0     	 44 	  0 	 A4 	lecture	Math
+    flow - 1     	 133 	  1 	 A6 	lecture	Math
+    flow - 2     	 50 	  2 	 A5 	lecture	Math
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A1 	practice	Math
+    bsbo-13-18     	 30 	  1 	 A2 	practice	Math
+    bsbo-14-17     	 25 	  1 	 A7 	practice	Math
+    ptbo-16-18     	 27 	  2 	 B3 	practice	Math
+    bsbo-12-16     	 26 	  1 	 A3 	lab	Physics
+    kmbo-02-16     	 23 	  0 	 B1 	lab	Physics
+    bsbo-17-17     	 30 	  1 	 B2 	lab	Physics
+    bsbo-15-18     	 22 	  1 	 B4 	lab	Physics
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    flow - 0     	 44 	  0 	 A4 	lecture	Algebra
+    flow - 1     	 133 	  1 	 A6 	lecture	Algebra
+    flow - 2     	 50 	  2 	 A5 	lecture	Algebra
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    flow - 0     	 44 	  0 	 A4 	lecture	Physics
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Algebra
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Algebra
+    ptbo-16-18     	 27 	  2 	 A7 	practice	Algebra
+    ptbo-01-18     	 23 	  2 	 B3 	practice	Math
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A1 	practice	Physics
+    flow - 1     	 133 	  1 	 A6 	lecture	Xp-programming
+    flow - 2     	 50 	  2 	 A4 	lecture	Xp-programming
+    kmbo-02-16     	 23 	  0 	 A2 	practice	Math
+
+   day: 85
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A3 	lab	Physics
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Xp-programming
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Xp-programming
+    ptbo-16-18     	 27 	  2 	 A7 	practice	Xp-programming
+    ptbo-01-18     	 23 	  2 	 B3 	practice	Algebra
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physics
+    ptbo-01-18     	 23 	  2 	 A1 	practice	Xp-programming
+    kmbo-02-16     	 23 	  0 	 A2 	practice	Physics
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Physics
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Physics
+    bsbo-12-16     	 26 	  1 	 A7 	practice	Math
+    bsbo-17-17     	 30 	  1 	 B3 	practice	Math
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A3 	lab	Physics
+    bsbo-14-17     	 25 	  1 	 B1 	lab	Physics
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Algebra
+    bsbo-17-17     	 30 	  1 	 A2 	practice	Algebra
+    bsbo-15-18     	 22 	  1 	 A7 	practice	Math
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Foreign language
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Foreign language
+    bsbo-12-16     	 26 	  1 	 A7 	practice	Xp-programming
+    bsbo-17-17     	 30 	  1 	 B3 	practice	Xp-programming
+
+   day: 86
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physical education
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Physics
+    bsbo-17-17     	 30 	  1 	 A2 	practice	Physics
+    bsbo-15-18     	 22 	  1 	 A7 	practice	Algebra
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Foreign language
+    bsbo-17-17     	 30 	  1 	 A2 	practice	Foreign language
+    bsbo-15-18     	 22 	  1 	 A7 	practice	Xp-programming
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    bsbo-15-18     	 22 	  1 	 A1 	practice	Physics
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    bsbo-15-18     	 22 	  1 	 A1 	practice	Foreign language
+
+   day: 87
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physical education
+
+Week: 13
+
+   day: 91
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 0     	 44 	  0 	 A4 	lecture	Math
+    flow - 1     	 133 	  1 	 A6 	lecture	Math
+    flow - 2     	 50 	  2 	 A5 	lecture	Math
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A1 	practice	Math
+    bsbo-13-18     	 30 	  1 	 A2 	practice	Math
+    bsbo-14-17     	 25 	  1 	 A7 	practice	Math
+    ptbo-16-18     	 27 	  2 	 B3 	practice	Math
+    bsbo-12-16     	 26 	  1 	 A3 	lab	Physics
+    kmbo-02-16     	 23 	  0 	 B1 	lab	Physics
+    bsbo-17-17     	 30 	  1 	 B2 	lab	Physics
+    bsbo-15-18     	 22 	  1 	 B4 	lab	Physics
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A1 	practice	Physics
+    flow - 1     	 133 	  1 	 A6 	lecture	Algebra
+    flow - 2     	 50 	  2 	 A4 	lecture	Algebra
+    kmbo-02-16     	 23 	  0 	 A2 	practice	Math
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A3 	lab	Physics
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Algebra
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Algebra
+    ptbo-16-18     	 27 	  2 	 A7 	practice	Algebra
+    ptbo-01-18     	 23 	  2 	 B3 	practice	Math
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Physics
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Physics
+    ptbo-01-18     	 23 	  2 	 A7 	practice	Algebra
+    bsbo-12-16     	 26 	  1 	 B3 	practice	Math
+
+   day: 92
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A3 	lab	Physics
+    bsbo-14-17     	 25 	  1 	 B1 	lab	Physics
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Algebra
+    kmbo-02-16     	 23 	  0 	 A2 	practice	Physics
+    bsbo-17-17     	 30 	  1 	 A7 	practice	Math
+    bsbo-15-18     	 22 	  1 	 B3 	practice	Math
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Foreign language
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Foreign language
+    bsbo-12-16     	 26 	  1 	 A7 	practice	Physics
+    bsbo-17-17     	 30 	  1 	 B3 	practice	Algebra
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physical education
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Foreign language
+    bsbo-17-17     	 30 	  1 	 A2 	practice	Physics
+    bsbo-15-18     	 22 	  1 	 A7 	practice	Algebra
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    bsbo-17-17     	 30 	  1 	 A1 	practice	Foreign language
+    bsbo-15-18     	 22 	  1 	 A2 	practice	Physics
+
+   day: 93
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physical education
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    bsbo-15-18     	 22 	  1 	 A1 	practice	Foreign language
+
+Week: 14
+
+   day: 98
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 0     	 44 	  0 	 A4 	lecture	Math
+    flow - 1     	 133 	  1 	 A6 	lecture	Math
+    flow - 2     	 50 	  2 	 A5 	lecture	Math
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A1 	practice	Math
+    bsbo-13-18     	 30 	  1 	 A2 	practice	Math
+    bsbo-14-17     	 25 	  1 	 A7 	practice	Math
+    ptbo-16-18     	 27 	  2 	 B3 	practice	Math
+    bsbo-12-16     	 26 	  1 	 A3 	lab	Physics
+    kmbo-02-16     	 23 	  0 	 B1 	lab	Physics
+    bsbo-17-17     	 30 	  1 	 B2 	lab	Physics
+    bsbo-15-18     	 22 	  1 	 B4 	lab	Physics
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    flow - 0     	 44 	  0 	 A4 	lecture	Algebra
+    flow - 1     	 133 	  1 	 A6 	lecture	Algebra
+    flow - 2     	 50 	  2 	 A5 	lecture	Algebra
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    flow - 0     	 44 	  0 	 A4 	lecture	Physics
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Algebra
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Algebra
+    ptbo-16-18     	 27 	  2 	 A7 	practice	Algebra
+    ptbo-01-18     	 23 	  2 	 B3 	practice	Math
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A1 	practice	Physics
+    flow - 1     	 133 	  1 	 A6 	lecture	Xp-programming
+    flow - 2     	 50 	  2 	 A4 	lecture	Xp-programming
+    kmbo-02-16     	 23 	  0 	 A2 	practice	Math
+
+   day: 99
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A3 	lab	Physics
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Xp-programming
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Xp-programming
+    ptbo-16-18     	 27 	  2 	 A7 	practice	Xp-programming
+    ptbo-01-18     	 23 	  2 	 B3 	practice	Algebra
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physics
+    ptbo-01-18     	 23 	  2 	 A1 	practice	Xp-programming
+    kmbo-02-16     	 23 	  0 	 A2 	practice	Physics
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Physics
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Physics
+    bsbo-12-16     	 26 	  1 	 A7 	practice	Math
+    bsbo-17-17     	 30 	  1 	 B3 	practice	Math
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A3 	lab	Physics
+    bsbo-14-17     	 25 	  1 	 B1 	lab	Physics
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Algebra
+    bsbo-17-17     	 30 	  1 	 A2 	practice	Algebra
+    bsbo-15-18     	 22 	  1 	 A7 	practice	Math
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Foreign language
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Foreign language
+    bsbo-12-16     	 26 	  1 	 A7 	practice	Xp-programming
+    bsbo-17-17     	 30 	  1 	 B3 	practice	Xp-programming
+
+   day: 100
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physical education
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Physics
+    bsbo-17-17     	 30 	  1 	 A2 	practice	Physics
+    bsbo-15-18     	 22 	  1 	 A7 	practice	Algebra
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Foreign language
+    bsbo-17-17     	 30 	  1 	 A2 	practice	Foreign language
+    bsbo-15-18     	 22 	  1 	 A7 	practice	Xp-programming
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    bsbo-15-18     	 22 	  1 	 A1 	practice	Physics
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    bsbo-15-18     	 22 	  1 	 A1 	practice	Foreign language
+
+   day: 101
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physical education
+
+Week: 15
+
+   day: 105
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 0     	 44 	  0 	 A4 	lecture	Math
+    flow - 1     	 133 	  1 	 A6 	lecture	Math
+    flow - 2     	 50 	  2 	 A5 	lecture	Math
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A1 	practice	Math
+    bsbo-13-18     	 30 	  1 	 A2 	practice	Math
+    bsbo-14-17     	 25 	  1 	 A7 	practice	Math
+    ptbo-16-18     	 27 	  2 	 B3 	practice	Math
+    bsbo-12-16     	 26 	  1 	 A3 	lab	Physics
+    kmbo-02-16     	 23 	  0 	 B1 	lab	Physics
+    bsbo-17-17     	 30 	  1 	 B2 	lab	Physics
+    bsbo-15-18     	 22 	  1 	 B4 	lab	Physics
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A1 	practice	Physics
+    flow - 1     	 133 	  1 	 A6 	lecture	Algebra
+    flow - 2     	 50 	  2 	 A4 	lecture	Algebra
+    kmbo-02-16     	 23 	  0 	 A2 	practice	Math
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    kmbo-12-12     	 21 	  0 	 A3 	lab	Physics
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Algebra
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Algebra
+    ptbo-16-18     	 27 	  2 	 A7 	practice	Algebra
+    ptbo-01-18     	 23 	  2 	 B3 	practice	Math
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Physics
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Physics
+    ptbo-01-18     	 23 	  2 	 A7 	practice	Algebra
+    bsbo-12-16     	 26 	  1 	 B3 	practice	Math
+
+   day: 106
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A3 	lab	Physics
+    bsbo-14-17     	 25 	  1 	 B1 	lab	Physics
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Algebra
+    kmbo-02-16     	 23 	  0 	 A2 	practice	Physics
+    bsbo-17-17     	 30 	  1 	 A7 	practice	Math
+    bsbo-15-18     	 22 	  1 	 B3 	practice	Math
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    bsbo-13-18     	 30 	  1 	 A1 	practice	Foreign language
+    bsbo-14-17     	 25 	  1 	 A2 	practice	Foreign language
+    bsbo-12-16     	 26 	  1 	 A7 	practice	Physics
+    bsbo-17-17     	 30 	  1 	 B3 	practice	Algebra
+    ---------------------------------------Lesson: 3 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physical education
+    ---------------------------------------Lesson: 4 -----------------------------------------
+    bsbo-12-16     	 26 	  1 	 A1 	practice	Foreign language
+    bsbo-17-17     	 30 	  1 	 A2 	practice	Physics
+    bsbo-15-18     	 22 	  1 	 A7 	practice	Algebra
+    ---------------------------------------Lesson: 5 -----------------------------------------
+    bsbo-17-17     	 30 	  1 	 A1 	practice	Foreign language
+    bsbo-15-18     	 22 	  1 	 A2 	practice	Physics
+
+   day: 107
+
+   |        Name:|  quantity:|  flows|  Cabinet|Type
+    ---------------------------------------Lesson: 1 -----------------------------------------
+    flow - 1     	 133 	  1 	 A6 	lecture	Physical education
+    ---------------------------------------Lesson: 2 -----------------------------------------
+    bsbo-15-18     	 22 	  1 	 A1 	practice	Foreign language
